@@ -1,6 +1,6 @@
 # Synology Cloudflare DDNS Script 📜
 
-The is a script to be used to add [Cloudflare](https://www.cloudflare.com/) as a DDNS to [Synology](https://www.synology.com/) NAS. The script used an updated API, Cloudflare API v4.
+These are scripts to be used to add [Cloudflare](https://www.cloudflare.com/) and [Gandi](https://www.gandi.net) as a DDNS to [Synology](https://www.synology.com/) NAS. The script used an updated API, Cloudflare API v4. And Gandi v5 API for LiveDNS.
 
 ## How to use
 
@@ -12,11 +12,12 @@ The is a script to be used to add [Cloudflare](https://www.cloudflare.com/) as a
 4. Use your Synology admin account to connect.
 
 ### Run commands in Synology
+This applies for both scrips
 
 1. Download `cloudflareddns.sh` from this repository to `/sbin/cloudflareddns.sh`
 
 ```
-wget https://raw.githubusercontent.com/joshuaavalon/SynologyCloudflareDDNS/master/cloudflareddns.sh -O /sbin/cloudflareddns.sh
+wget https://raw.githubusercontent.com/lutcmoi/SynologyGandiDDNS/master/cloudflareddns.sh -O /sbin/cloudflareddns.sh
 ```
 
 It is not a must, you can put I whatever you want. If you put the script in other name or path, make sure you use the right path.
